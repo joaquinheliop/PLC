@@ -5,21 +5,21 @@
 - [5. Seguridad del Mikrotik](#5-seguridad-del-mikrotik)
 
 # 1. Esquema
-~~~
-	|
-	|
-  | WAN (DHCP Client)
-  | Ether1 - (Public IP)             |
+
+	  
+	  |				  
+	  | WAN (DHCP Client)		     
+	  | Ether1 - (Public IP)             
   | -------------------------------- |
   |                                  |
   | Mikrotik                         |
   |                                  |
   | -------------------------------- |
   |                                  |
-  | Ether2 - 192.168.11.1            |
-  | LAN (DHCP Server)                |
-  |                                  |
-~~~			
+	  | Ether2 - 192.168.11.1            
+	  | LAN (DHCP Server)                
+	  |                                  
+		
   
 # 2. Inicial
 
