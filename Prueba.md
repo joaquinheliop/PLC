@@ -30,7 +30,7 @@
 3. Setear nombres de interfaces _(en interfaces, doble click en la que se quiere configurar)_
    
 # 3. LAN
-1.  _IP > Adressess > +_
+1. _IP > Adressess > +_
 ~~~
 Address: 192.168.11.1/24
 Network: 192.168.11.0
@@ -83,10 +83,10 @@ UDlZp{6v9]u9uj27Wj]3
       - **r1:**	
         - src address: 192.168.11.0/24
       -	**r2:**
-        -	src address: 192.168.150.0/24 (esta regla va a ser para la VPN)
+        - src address: 192.168.150.0/24 (esta regla va a ser para la VPN)
       -	**r3:**
-        -	protocol: tcp
-        -	dst port: 22,8291,1194 _(si no funca la vpn, probar poner esta regla primero y dps moverla al 3er lugar)_
+        - protocol: tcp
+        - dst port: 22,8291,1194 _(si no funca la vpn, probar poner esta regla primero y dps moverla al 3er lugar)_
       - **r4:** 
         - Connection State: tildar Established y Related
       - **r5:** 
