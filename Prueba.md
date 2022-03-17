@@ -78,7 +78,7 @@ UDlZp{6v9]u9uj27Wj]3
 3. Cargar reglas de Firewall
    1. _IP > Firewall_
    2. Agregar reglas de bloqueo _(con el +)_:
-			chain : input
+      - chain : input
       - **r1:**	
         - src address: 192.168.11.0/24
       -	**r2:**
